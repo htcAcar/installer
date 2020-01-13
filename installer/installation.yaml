@@ -1,0 +1,33 @@
+copy:
+  main_dir:
+    dst: D:/install_dir/main_app
+    src: pkg/main_app
+  others:
+    dirs:
+    - dst: D:/install_dir/folder/inner_folder
+      src: pkg/folder2
+    - dst: D:/install_dir/folder/inner_folder5
+      src: pkg/folder3
+    files:
+    - dst: pkg/main_app/conf
+      name: file1
+      src: pkg/app.hebele
+    - dst: pkg/main_app/conf
+      name: file2
+      src: pkg/app.conf
+exec:
+  post:
+  - echo Step1
+  - echo Step2
+  pre:
+  - echo "Step 1"
+  - echo "Step 2"
+variables:
+- VAR_VERSION_1: 1.0.3
+  filename: pkg/main_app/file
+- VAR_VERSION_2: 1.0.44
+  degisken adi1: degisken adi
+  filename: file2*
+- degisken adi2: degisken adi
+  filename: file3*
+version: 1.0.0

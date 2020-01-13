@@ -1,0 +1,6 @@
+*.[oa]
+.~
+/mini_installer/.idea
+/mini_installer/build
+/mini_installer/dist
+/mini_installer/installer.egg-info

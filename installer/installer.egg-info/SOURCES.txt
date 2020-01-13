@@ -1,0 +1,13 @@
+README.md
+setup.py
+installer.egg-info/PKG-INFO
+installer.egg-info/SOURCES.txt
+installer.egg-info/dependency_links.txt
+installer.egg-info/entry_points.txt
+installer.egg-info/requires.txt
+installer.egg-info/top_level.txt
+mini_installer/__init__.py
+mini_installer/copy_file.py
+mini_installer/file_read.py
+mini_installer/main.py
+mini_installer/version.py
